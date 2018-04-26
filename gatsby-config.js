@@ -5,7 +5,6 @@ module.exports = {
     description: 'A freeform blog by Antonin Januska.',
     siteUrl: 'http://antjan.us',
   },
-  pathPrefix: '/blog',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -45,7 +44,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-feed`,
-    `gatsby-plugin-offline`,
+//    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: 'gatsby-plugin-typography',
