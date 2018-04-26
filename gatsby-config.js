@@ -3,7 +3,7 @@ module.exports = {
     title: 'AntJan.Us',
     author: 'Antonin Januska',
     description: 'A freeform blog by Antonin Januska.',
-    siteUrl: 'http://antjan.us',
+    siteUrl: 'https://antjan.us/',
   },
   plugins: [
     {
